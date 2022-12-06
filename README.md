@@ -177,21 +177,77 @@ export default {
 }
 ```
 
+### *`scriptId`* (string)
+
+- Sets the unique identifier (hid) for the script
+- Defaults to `newrelic`
+- See [Nuxt Head Docs](https://nuxtjs.org/docs/components-glossary/head/) for more details
+
+```js
+export default {
+  newrelic: {
+    browser: {
+      scriptId: 'newrelic'
+    }
+  }
+}
+```
+
 ### *`accountId`* (string)
 - New Relic account id
 - populated in browser script
+
+```js
+export default {
+  newrelic: {
+    browser: {
+      accountId: 'YOUR NEW RELIC ACCOUNT ID HERE',
+    }
+  }
+}
+```
 
 ### *`agentId`* (string)
 - New Relic agent id
 - populated in browser script
 
+```js
+export default {
+  newrelic: {
+    browser: {
+      agentId: 'YOUR NEW RELIC AGENT ID HERE',
+    }
+  }
+}
+```
+
 ### *`licenseKey`* (string)
 - New Relic license key
 - populated in browser script
 
+```js
+export default {
+  newrelic: {
+    browser: {
+      licenseKey: 'YOUR NEW RELIC LICENSE KEY HERE',
+    }
+  }
+}
+```
+
 ### *`applicationId`* (string)
 - New Relic application id
 - populated in browser script
+
+```js
+export default {
+  newrelic: {
+    browser: {
+      applicationId: 'YOUR NEW RELIC APPLICATION ID HERE'
+    }
+  }
+}
+```
 
 ## Where do I find the browser settings? 
 1. Login to the New Relic portal
