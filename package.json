@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-newrelic",
+  "version": "1.0.0",
+  "description": "A Nuxt 2 Module to add NewRelic APM / Browser monitoring to your project",
+  "main": "lib/module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaketig/nuxt-newrelic.git"
+  },
+  "keywords": [
+    "nuxt",
+    "newrelic"
+  ],
+  "author": "Jake Tigchelaar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaketig/nuxt-newrelic/issues"
+  },
+  "homepage": "https://github.com/jaketig/nuxt-newrelic#readme",
+  "dependencies": {
+    "newrelic": "^9.7.0"
+  }
+}
