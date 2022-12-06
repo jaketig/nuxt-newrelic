@@ -4,7 +4,8 @@
   "description": "A Nuxt 2 Module to add NewRelic APM / Browser monitoring to your project",
   "main": "lib/module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
