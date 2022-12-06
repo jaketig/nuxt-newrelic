@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-newrelic",
+  "name": "@jaketig/nuxt-newrelic",
   "version": "1.0.0",
   "description": "A Nuxt 2 Module to add NewRelic APM / Browser monitoring to your project",
   "main": "lib/module.js",
@@ -22,5 +22,9 @@
   "homepage": "https://github.com/jaketig/nuxt-newrelic#readme",
   "dependencies": {
     "newrelic": "^9.7.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }

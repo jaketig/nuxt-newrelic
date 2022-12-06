@@ -7,7 +7,7 @@ A Nuxt 2 Module to add NewRelic APM / Browser monitoring to your project
 1. Add `nuxt-newrelic` dependency to your project
 
 ```bash
-npm install jaketig/nuxt-newrelic
+npm install @jaketig/nuxt-newrelic
 ```
 
 2. Add `nuxt-newrelic` to the `modules` section of `nuxt.config.js`
@@ -15,7 +15,7 @@ npm install jaketig/nuxt-newrelic
 ```js
 export default {
   modules: [
-    'jaketig/nuxt-newrelic'
+    '@jaketig/nuxt-newrelic'
   ]
 }
 ```
@@ -36,7 +36,7 @@ newrelic_agent.log
 ```js
 export default {
   modules: [
-    'jaketig/nuxt-newrelic'
+    '@jaketig/nuxt-newrelic'
   ],
   privateRuntimeConfig: {
     newrelic: {
@@ -66,7 +66,7 @@ export default {
 ```js
 export default {
   modules: [
-    'jaketig/nuxt-newrelic'
+    '@jaketig/nuxt-newrelic'
   ],
   newrelic: {
     apm: {
